@@ -1,0 +1,18 @@
+{
+  "linksFile": "data/links.csv",
+  "stateFile": "data/state.json",
+  "outDir": "data/out",
+  "proxiesFile": "config/proxies.txt",
+  "concurrency": 4,
+  "perHostDelayMs": 3000,
+  "jitterMs": 1500,
+  "timeoutMs": 15000,
+  "retries": 2,
+  "retryBaseMs": 2000,
+  "maxRetryAfterMs": 60000,
+  "maxBytes": 5000000,
+  "proxyMaxFails": 3,
+  "confirmRuns": 2,
+  "unknownAlertAfter": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}

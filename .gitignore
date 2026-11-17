@@ -1,0 +1,9 @@
+node_modules/
+.env
+config/proxies.txt
+data/links.csv
+data/state.json
+data/state.json.*
+data/out/
+data/demo/
+*.tmp
